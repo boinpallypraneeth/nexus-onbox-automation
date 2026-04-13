@@ -1,0 +1,19 @@
+# Logs
+*.log
+*.txt
+
+# Sensitive - never commit these
+baseline_config.txt
+live_config_snap.txt
+config_audit_log.txt
+errdisable_log.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
